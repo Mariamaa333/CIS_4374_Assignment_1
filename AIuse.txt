@@ -1,0 +1,103 @@
+Assignment 2:
+
+Application: ChatGPT 
+
+
+Conversation:
+
+
+
+I said:
+
+“I am pretending to be a project manager for a made up company. if my instructor says to "create a work breakdown structure that Is greater than 3 levels deep" 
+
+Can I have my components say something like:
+
+- component 1: Driver's authentication and security.
+
+- component 2: Parking availability and reservation.
+
+- component 3: Payment to access official parking.
+
+-component 4: Digital reports and analytics.
+
+
+ChatGPT said:
+Yes — those are good candidates for Level 2 components, but they do not by themselves make the WBS “greater than 3 levels deep.”
+If your instructor says “greater than 3 levels deep,” they likely want something like this:
+
+Example WBS
+Level 1 — Parking Management System
+Level 2 — Driver Authentication and Security
+Level 3 — User Authentication
+Level 4 — Create login system
+Level 4 — Implement password recovery
+Level 4 — Implement multi-factor authentication
+Level 3 — Security
+Level 4 — Encrypt user information
+Level 4 — Implement access controls
+Level 2 — Parking Availability and Reservation
+Level 3 — Parking Availability
+Level 4 — Display available parking spaces
+Level 4 — Update parking availability
+Level 3 — Reservations
+Level 4 — Create reservation
+Level 4 — Cancel reservation
+Level 2 — Payment to Access Official Parking
+Level 3 — Payment Processing
+Level 4 — Add payment method
+Level 4 — Process parking payment
+Level 4 — Generate payment confirmation
+Level 2 — Digital Reports and Analytics
+Level 3 — Reports
+Level 4 — Generate parking usage reports
+Level 4 — Generate revenue reports
+Level 3 — Analytics
+Level 4 — Analyze parking demand
+Level 4 — Display usage trends
+So yes, your four components work well. I would just label them as Level 2 and then break each one down into Levels 3 and 4.
+The key is that your WBS needs to go at least four levels deep if “greater than 3 levels” literally means more than three.
+
+
+I said:
+so when creating a WBS I pay more attention on deliverable of what the result/completion instead of a task( step by step)?
+
+ChatGPT said:
+Exactly. A WBS focuses primarily on deliverables/results, not on a step-by-step list of tasks.
+Think of it as:
+
+“What needs to exist/be completed?” rather than “What steps do I take to do it?”
+For example, for your parking system:
+WBS/deliverable-oriented:
+
+Parking Reservation System
+Reservation Interface
+Space Availability Display
+Reservation Confirmation
+Reservation Cancellation
+These describe things/components that will be delivered.
+More task-oriented:
+
+Open the database
+Write the reservation code
+Test the reservation button
+Fix errors
+Deploy the system
+Those are activities/tasks used to produce the deliverables.
+A simple way to tell the difference
+Ask yourself:
+“Can I hand this to someone and say, ‘This is what we're delivering’?”
+
+If yes → probably a good WBS element.
+
+“Is this an action someone performs to create it?”
+
+If yes → that's more likely a task/activity.
+
+So your original components are actually pretty good:
+
+Driver Authentication and Security → deliverable/component
+Parking Availability and Reservation → deliverable/component
+Payment System → deliverable/component
+Digital Reports and Analytics → deliverable/component
+Then you can keep breaking those deliverables into smaller deliverables until you reach the required depth.
