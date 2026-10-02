@@ -101,3 +101,46 @@ Parking Availability and Reservation → deliverable/component
 Payment System → deliverable/component
 Digital Reports and Analytics → deliverable/component
 Then you can keep breaking those deliverables into smaller deliverables until you reach the required depth.
+
+
+
+
+
+
+I said: 
+what are good security risks for a parking system ?
+ChatGPT said:
+If you mean security risks/threats for a parking management system (parking app, kiosks, gates, license-plate recognition, payments, etc.), here are strong ones to consider:
+Unauthorized access — attackers gain access to admin accounts or staff dashboards.
+Weak authentication — stolen/reused passwords or lack of MFA allows account takeover.
+Payment fraud — attackers manipulate payments, refunds, rates, or payment information.
+License plate data exposure — unauthorized access to plate numbers, vehicle records, entry/exit times, or location history.
+Ticket/permit forgery — users create or modify parking permits, tickets, QR codes, or validation codes.
+Gate/entry manipulation — an attacker bypasses the system and opens parking gates without authorization.
+API attacks — poorly secured APIs allow attackers to change reservations, parking rates, user data, or availability.
+SQL injection — malicious input could access or modify the parking database if inputs aren't properly handled.
+Privilege escalation — a normal parking attendant or customer account gains administrative privileges.
+Denial of service — flooding the system prevents customers from entering, exiting, paying, or making reservations.
+Ransomware/malware — compromises servers, kiosks, or administrative computers and disrupts parking operations.
+Insider threats — employees misuse access to alter records, issue fraudulent permits, or access customer information.
+IoT/device compromise — cameras, sensors, kiosks, barriers, and license-plate readers are compromised.
+Network interception — unencrypted communication between kiosks, sensors, mobile apps, and servers exposes sensitive information.
+Physical tampering — someone tampers with parking kiosks, payment terminals, cameras, or gate controllers.
+Privacy violations — excessive collection or retention of vehicle/location information creates privacy and compliance risks.
+Third-party/vendor compromise — a payment processor, cloud provider, parking-management vendor, or API becomes the attack path.
+A useful risk table
+Risk	Likelihood	Impact	Example
+Account takeover	Medium	High	Admin credentials stolen
+Payment fraud	Medium	High	Parking fees/refunds manipulated
+License-plate data breach	Medium	High	Vehicle history exposed
+Gate bypass	Medium	High	Unauthorized vehicle enters
+API vulnerability	Medium	High	Reservation data modified
+SQL injection	Low–Medium	Critical	Database compromised
+DoS attack	Medium	Medium–High	Garage cannot process entries
+Insider misuse	Low–Medium	High	Employee creates fake permits
+Device tampering	Medium	Medium–High	Kiosk or barrier compromised
+Ransomware	Low–Medium	Critical	Parking operations unavailable
+
+For a school/college project, a particularly good security-risk section would focus on authentication, authorization, payment security, privacy of license-plate data, API/database security, gate/device security, and availability.
+
+
